@@ -12,11 +12,14 @@ table {
 
 td {
     background-color:#1a1a1a;
-     padding:10px;
-     border:5px solid #000000;
-     border-radius:5%;
-     
+    padding-left:40px;
+    padding-right:40px;
+    border:5px solid #000000;
+    border-radius:12px;
+    
 }
+
+
 
 td:hover {
     transition:0.7s ease-out;
@@ -29,11 +32,12 @@ tr {
 
 
 h1 {
-    margin-right:55%;
-     margin-left:5%;
+    margin-right:5%;
+    margin-left:5%;
     background-color:#1a1a1a;
     padding:15px;
     border-radius:25px;
+    
 }
 
 .iop:hover {
@@ -58,11 +62,10 @@ nav a {
 
 html {
     scroll-behavior:smooth;
-     
 }
 
 span{
-    font-size:18px;
+    font-size:48px;
     border-bottom:1px solid white;
     font-weight:700;
     margin-bottom:6px;
@@ -70,6 +73,7 @@ span{
 }
 p {
     line-height:150%;
+    font-size: 32px;
 }
 
 
@@ -81,6 +85,7 @@ p img{
 .knopka {
 display:flex;
 justify-content:space-between;
+
 }
 
 
@@ -88,20 +93,23 @@ justify-content:space-between;
 flex:1;
 margin:10px;
 padding:10px;
-font-size:20px;
+font-size:32px;
 }
 .knopka a:hover {
  transform: scale(1.2)
     
 }
 
+.iop {
+ font-size:56px;
+}
 
 .iop:hover {
     text-shadow:3px 2px 5px #ffbb28;
     transition:1s ease-out;
 }
-.iop::after {
-   
+.qwe {
+    font-size:56px;
 }
 
 .qwe:hover{
@@ -110,16 +118,23 @@ font-size:20px;
     border:2px solid #3a3a3a;
 }
 
+.zxc {
+    font-size:56px;
+}
 .zxc:hover {
 text-shadow:3px 2px 5px #9b00ff;
      transition:1s linear;
     border:2px solid #3a3a3a;
 }
 
+.fgh {
+    font-size:56px;
+}
+
 .fgh:hover {
 text-shadow:3px 2px 5px #3ff0ff;
     transition:1s linear;
-    border:2px solid #3a3a3a;;
+    border:2px solid #3a3a3a;
 }
 
 
@@ -139,27 +154,30 @@ header {
 
 .qwerty {
     opacity:0.5;
+    position:relative;
+    text-align: center;
+    font-size: 64px;
 }
 
 .qwerty::before {
     content: '';
     background-image: url(https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png);
-    width:45px;
-    height:45px;
+    width:90px;
+    height:90px;
     position:absolute;
     background-size:cover;
-    left:20px;
+    left:0%;
        
 }
 
 .qwerty::after {
     content: '';
         background-image: url(https://supremevaluelist.com/media/mm2ancients/Vampires_Axe.png);
-        width:45px;
-        height:45px;
+        width:90px;
+        height:90px;
         position:absolute;
         background-size:cover;
-        left:240px;
+        right:0%;
        
 }
 
@@ -174,12 +192,14 @@ margin-right:50px;
 
 .hotitem {
     text-align:center;
+    font-size:35px;
 }
 
 
 .hotitemf {
-    border:2px solid #333333;
-   border-radius:25px; 
+border:2px solid #333333;
+border-radius:25px; 
+
 }
 
 .hotitemf:hover {
@@ -240,5 +260,13 @@ border:3px solid #404040;
 border-radius:10px 0 0 0;
 padding-top:7px;
 }
+
+.joj {
+width:100px;
+height:100px;
+}
+
+
+
 
 
